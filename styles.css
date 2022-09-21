@@ -7,7 +7,7 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background: #1f2937;
     color: #ffffff;
@@ -19,15 +19,19 @@ header {
     color: #f9faf8;
 }
 
+
 ul {
+    gap: 30px;
     display: flex;
     margin: 10px;
+    justify-content: space-around;
     flex-direction: row;
     list-style: none;
 }
 /* this website is awesome */
 .section1 {
     display: flex;
+    justify-content: center;
     height: 100px;
     background: #1f2937;
     color: #ffffff;
@@ -41,12 +45,15 @@ h1 {
 /* some random information */
 .section2 {
     display: flex;
+    margin: auto;
+    justify-content: center;
     background: #ffffff;
     color: #1f2937;
 }
 /* quote */
 .section3 {
-    display: flex;
+    text-align: center;
+    font-size: 36px;
     background: #e5e7eb;
     color: #1f2937;
 }
@@ -58,7 +65,8 @@ h1 {
 }
 
 footer {
-    display: flex;
+    height: 50px;
+    text-align: center;
     background: #1f2937;
     color: #ffffff;
 }
