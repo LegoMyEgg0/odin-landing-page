@@ -1,29 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: #1f2937;
     color: #ffffff;
+}
+
+.headerlogo {
+    margin: 10px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    list-style: none;
 }
 /* this website is awesome */
 .section1 {
+    display: flex;
+    height: 100px;
     background: #1f2937;
     color: #ffffff;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
 /* some random information */
 .section2 {
+    display: flex;
     background: #ffffff;
     color: #1f2937;
 }
 /* quote */
 .section3 {
+    display: flex;
     background: #e5e7eb;
     color: #1f2937;
 }
 /* section4 sign up section */
 .section4 {
+    display: flex;
     background: #ffffff;
     color: #ffffff;
 }
 
 footer {
+    display: flex;
     background: #1f2937;
     color: #ffffff;
 }
