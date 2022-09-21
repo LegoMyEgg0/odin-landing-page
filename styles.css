@@ -49,8 +49,8 @@ h1 {
 /* some random information */
 .section2 {
     display: flex;
-    margin: auto;
     justify-content: center;
+    margin: auto;
     background: #ffffff;
     color: #1f2937;
 }
