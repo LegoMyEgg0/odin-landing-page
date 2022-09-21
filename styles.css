@@ -37,6 +37,10 @@ ul {
     color: #ffffff;
 }
 
+.image {
+    background: #6d747d;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 800;
@@ -50,21 +54,45 @@ h1 {
     background: #ffffff;
     color: #1f2937;
 }
+
+figure img {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #3882f6;
+    border-radius: 12px;
+}
 /* quote */
 .section3 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     background: #e5e7eb;
     color: #1f2937;
 }
+
+blockquote p {
+    width: 775px;
+    font-family: "light italic";
+}
+
+figcaption {
+    text-align: right;
+    font-weight: bold;
+}
 /* section4 sign up section */
 .section4 {
+    justify-content: center;
     display: flex;
     background: #ffffff;
     color: #ffffff;
 }
 
+.bluebox {
+    background: #3882f6;
+}
+
 footer {
+    padding: 15px;
     height: 50px;
     text-align: center;
     background: #1f2937;
