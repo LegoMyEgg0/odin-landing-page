@@ -37,6 +37,17 @@ ul {
     color: #ffffff;
 }
 
+.section1text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 p {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
 .image {
     background: #6d747d;
 }
@@ -46,6 +57,7 @@ h1 {
     font-weight: 800;
     color: #f9faf8;
     text-align: center;
+    margin: 0px 40px;
 }
 /* some random information */
 .section2 {
@@ -58,6 +70,7 @@ h2 {
 }
 
 .images {
+    margin: auto;
     width: 800px;
 }
 
