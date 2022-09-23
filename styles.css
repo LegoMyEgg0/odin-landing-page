@@ -45,14 +45,30 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    text-align: center;
 }
 /* some random information */
 .section2 {
-    display: flex;
-    justify-content: center;
-    margin: auto;
     background: #ffffff;
     color: #1f2937;
+}
+
+h2 {
+    text-align: center;
+}
+
+.images {
+    width: 800px;
+}
+
+.images figcaption {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 figure img {
